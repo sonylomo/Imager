@@ -1,5 +1,4 @@
 <!-- Please update value in the {}  -->
-[Design 😎](https://www.figma.com/file/NxbZm3CAovYh89dFXe7EOw/Image-Uploader)
 
 <h1 align="center">{Your project name}</h1>
 
@@ -9,6 +8,10 @@
 
 <div align="center">
   <h3>
+    <a href="https://www.figma.com/file/NxbZm3CAovYh89dFXe7EOw/Image-Uploader">
+      Design
+    </a>
+    <span> | </span>
     <a href="https://{your-demo-link.your-domain}">
       Demo
     </a>
