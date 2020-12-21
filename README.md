@@ -1,4 +1,5 @@
 <!-- Please update value in the {}  -->
+[Design 😎](https://www.figma.com/file/NxbZm3CAovYh89dFXe7EOw/Image-Uploader)
 
 <h1 align="center">{Your project name}</h1>
 
