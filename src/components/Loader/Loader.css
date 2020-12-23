@@ -1,0 +1,11 @@
+.loader{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 15vh auto;
+    text-align: left;
+    font-family: arial;
+    height: 135px;       
+    padding-top: 5vh;
+    padding-left: 2vw;
+}

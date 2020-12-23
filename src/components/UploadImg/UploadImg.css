@@ -1,0 +1,44 @@
+.uploadImg {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 15vh auto;
+  text-align: center;
+  font-family: arial;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+}
+
+.uploadImg > img {
+  object-fit: fill;
+  min-width: 150px;
+  min-height: 200px;
+  width: 80%;
+  border-radius: 12px;
+}
+
+.imgInput {
+  width: 80%;
+  margin: 2vh auto;
+  height: 34px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.imgInput > input {
+  border-radius: 8px;
+  border-width: 0;
+  height: 30px;
+  width: 70%;
+}
+
+.imgInput > button {
+  border-radius: 8px;
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  font-size: 11px;
+  height: 34px;
+  width: 74px;
+  float: right;
+}

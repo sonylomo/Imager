@@ -1,0 +1,25 @@
+.button {
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 2;
+  width: 100px;
+  color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.dark {
+  background-color: gray;
+}
+
+.light {
+  background-color: #2f80ed;
+}

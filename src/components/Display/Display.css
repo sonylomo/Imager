@@ -1,0 +1,22 @@
+.display {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 15vh auto;
+  text-align: center;
+  font-family: arial;
+  height: 70vh;
+  padding-top: 5vh;
+}
+
+.display > h3 {
+  font-size: 18px;
+}
+
+.display > p {
+  font-size: 10px;
+}
+
+.display > input {
+  width: 60%;
+}
