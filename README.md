@@ -88,6 +88,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://sonylomo.github.io/)
-- GitHub [@your-username](https://github.com/sonylomo)
-- Twitter [@your-twitter](https://twitter.com/sony_lomo)
+- Website [sonylomo.github.io](https://sonylomo.github.io/)
+- GitHub [@sonylomo](https://github.com/sonylomo)
+- Twitter [@sony_lomo](https://twitter.com/sony_lomo)
