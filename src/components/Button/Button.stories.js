@@ -6,6 +6,9 @@ import Button from "./Button";
 export default {
   title: "Button",
   component: Button,
+  argTypes: {
+    backgroundColor: { control: 'color' },
+  },
 };
 
 /* Named export representing every story */
