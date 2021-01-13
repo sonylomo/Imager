@@ -1,6 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
+
+
 * {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
+
+.dark {
+  --text: white;
+  --display-background : black;
+  --btn-background: rgb(48, 48, 48);
+}
+
+.grey {
+  --text: white;
+  --display-background : rgb(48, 48, 48);
+  --btn-background: #20569c;
+}
+
+.light {
+  --text: black;
+  --display-background : white;
+  --btn-background: #2f80ed;
+}
+

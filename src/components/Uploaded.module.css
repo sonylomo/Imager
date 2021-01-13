@@ -1,3 +1,5 @@
+@import '../App.css';
+
 .uploaded {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -7,6 +9,8 @@
   font-family: arial;
   padding-top: 2vh;
   padding-bottom: 3vh;
+  color: var(--text);
+  background-color: var(--display-background);
 }
 
 /* .uploadedImg {
@@ -23,6 +27,7 @@
   height: 34px;
   border: 1px solid lightgray;
   border-radius: 8px;
+  background-color: white;
 }
 
 .uploadedInput > input {
@@ -34,8 +39,8 @@
 
 .uploadedInput > button {
   border-radius: 8px;
-  background-color: #2f80ed;
-  color: white;
+  background-color: var(--btn-background);
+  color: var(--text);
   border: none;
   font-size: 11px;
   height: 34px;

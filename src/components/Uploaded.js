@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import styles from "./Uploaded.module.css";
 
-function Uploaded({ Url, Title }) {
+function Uploaded({ Url, Title, Theme='light' }) {
   const [CopiedTxt, setCopiedTxt] = useState(null);
 
   const CopyText = () => {
@@ -12,7 +12,7 @@ function Uploaded({ Url, Title }) {
     alert("Link copied!!😎");
   };
   return (
-    <div className={styles.uploaded}>
+    <div className={`${styles.uploaded} ${Theme}`}>
       <FontAwesomeIcon icon={faCheckCircle} size="3x" color="green" />
       <h3>Uploaded Successfully!</h3>
 
