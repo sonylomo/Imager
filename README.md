@@ -12,7 +12,7 @@
       Design
     </a>
     <span> | </span>
-    <a href="https://imager-254.web.app/">
+    <a href="http://imager.sonylomo.vercel.app/">
       Demo
     </a>
     <span> | </span>
