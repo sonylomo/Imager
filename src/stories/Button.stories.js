@@ -13,6 +13,6 @@ export default {
 
 /* Named export representing every story */
 
-export const Dark = () => <Button Theme="dark">🌚 Dark </Button>;
-export const Grey = () => <Button Theme="grey">🌓 Grey </Button>;
-export const Light = () => <Button Theme="light">🌝 Light</Button>;
+export const Dark = () => <Button StoryTheme="dark">🌚 Dark </Button>;
+export const Grey = () => <Button StoryTheme="grey">🌓 Grey </Button>;
+export const Light = () => <Button StoryTheme="light">🌝 Light</Button>;

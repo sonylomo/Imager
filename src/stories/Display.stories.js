@@ -9,6 +9,6 @@ export default {
     // },
   };
   
-export const Dark = () => <Display Theme="dark"/>
-export const Grey = () => <Display Theme="grey"/>
-export const Light = () => <Display Theme="light"/>
+export const Dark = () => <Display StoryTheme="dark"/>
+export const Grey = () => <Display StoryTheme="grey"/>
+export const Light = () => <Display StoryTheme="light"/>

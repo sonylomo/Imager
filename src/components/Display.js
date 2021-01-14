@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import load from "../assets/loader.gif";
 import styles from "./Display.module.css";
 import { storage } from "./firebase";
+import ThemeContext from './ThemeContext';
 // import Loader from "./Loader/Loader";
 import Uploaded from "./Uploaded";
 
-function Display({Theme= "light"}) {
+function Display({StoryTheme}) {
+  const { Theme } = useContext(ThemeContext);
+
   const [file, setFile] = useState("");
   const [ImgName, setImgName] = useState("");
   const [url, setURL] = useState("");
@@ -50,7 +53,7 @@ function Display({Theme= "light"}) {
   return (
     <>
       {file !== null ? (
-        <div className={`${styles.display} ${Theme}`}>
+        <div className={`${styles.display} ${StoryTheme} ${Theme}`}>
           <h3>Upload your image</h3>
           <p>File should be Jpeg, Png...</p>
 
